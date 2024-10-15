@@ -77,8 +77,7 @@ function buyTicket(movie, ticketNum, buyButton) {
     }
 }
 
-
-
+// I'm using window.onload because I found it easier than DOMContentLoad.
 window.onload = () => {
     loadMovies();
     loadMovieDetails();  
